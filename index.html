@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>National Parks</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100&display=swap&family=Raleway:wght@600&display=swap" rel="stylesheet">
+  <style> 
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Explore National Parks</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="#explore_national_parks">🌸 Explore Activites</a></li>
+        <li><a href="#explore_national_parks">🌳 Explore Parks</a></li>
+        <li><a href="#explore_national_parks">🌼 Explore Sights</a></li>
+        <li><a href="learn.html">💚 Learn More</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Banner -->
+  <div class="jumbotron text-center">
+    <h1>🌳 National Parks 🌳</h1>
+    <p>Explore nature. Explore wonder.</p> 
+    <img class="rounded mx-auto d-block" src="park_ranger_bear.png" alt="Park Ranger Bear" id="bear-img" width="50%">
+  </div>
+
+  <!-- Explore Parks Search -->
+  <div class="container" id="explore_national_parks">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Explore Parks by Activity!</h3>
+        <form id="backend-activities-form">
+          <div class="form-group">
+            <label for="activity">🌸 Select Activity:</label>
+            <select class="form-control" id="activities_form">
+              <option value="09DF0950-D319-4557-A57E-04CD2F63FF42">Arts and Culture</option>
+              <option value="13A57703-BB1A-41A2-94B8-53B692EB7238">Astronomy</option>
+              <option value="5F723BAD-7359-48FC-98FA-631592256E35">Auto and ATV</option>
+              <option value="7CE6E935-F839-4FEC-A63E-052B1DEF39D2">Biking</option>
+              <option value="071BA73C-1D3C-46D4-A53C-00D5602F7F0E">Boating</option>
+              <option value="B33DC9B6-0B7D-4322-BAD7-A13A34C584A3">Guided Tours</option>
+              <option value="42FD78B9-2B90-4AA9-BC43-F10E9FEA8B5A">Hands-On</option>
+              <option value="BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA">Hiking</option>
+              <option value="0307955A-B65C-4CE4-A780-EB36BAAADF0B">Horse Trekking</option>
+              <option value="AE42B46C-E4B7-4889-A122-08FE180371AE">Fishing</option>
+              <option value="1DFACD97-1B9C-4F5A-80F2-05593604799E">Food</option>
+              <option value="DF4A35E0-7983-4A3E-BC47-F37B872B0F25">Junior Ranger Program</option>
+              <option value="B204DE60-5A24-43DD-8902-C81625A09A74">Living History</option>
+              <option value="C8F98B28-3C10-41AE-AA99-092B3B398C43">Museum Exhibits</option> 
+              <option value="4D224BCA-C127-408B-AC75-A51563C42411">Paddling</option>
+              <option value="0C0D142F-06B5-4BE1-8B44-491B90F93DEB">Park Film</option>
+              <option value="24380E3F-AD9D-4E38-BF13-C8EEB21893E7">Shopping</option>
+              <option value="0B685688-3405-4E2A-ABBA-E3069492EC50">Wildlife Watching</option> 
+            </select>
+          </div>
+          <button type="submit" class="btn btn-info">Explore now!</button>
+        </form>
+      </div>
+
+      <div class="col-sm-4">
+        <h3>Explore Parks by State!</h3>
+        <form id="backend-parks-form">
+          <div class="form-group">
+            <label for="park">🌳 Select State:</label>
+            <select class="form-control" id="park_form">
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+              <option value="AZ">Arizona</option>
+              <option value="AR">Arkansas</option>
+              <option value="CA">California</option>
+              <option value="CO">Colorado</option>
+              <option value="CT">Connecticut</option>
+              <option value="DE">Delaware</option>
+              <option value="DC">District Of Columbia</option>
+              <option value="FL">Florida</option>
+              <option value="GA">Georgia</option>
+              <option value="HI">Hawaii</option>
+              <option value="ID">Idaho</option>
+              <option value="IL">Illinois</option>
+              <option value="IN">Indiana</option>
+              <option value="IA">Iowa</option>
+              <option value="KS">Kansas</option>
+              <option value="KY">Kentucky</option>
+              <option value="LA">Louisiana</option>
+              <option value="ME">Maine</option>
+              <option value="MD">Maryland</option>
+              <option value="MA">Massachusetts</option>
+              <option value="MI">Michigan</option>
+              <option value="MN">Minnesota</option>
+              <option value="MS">Mississippi</option>
+              <option value="MO">Missouri</option>
+              <option value="MT">Montana</option>
+              <option value="NE">Nebraska</option>
+              <option value="NV">Nevada</option>
+              <option value="NH">New Hampshire</option>
+              <option value="NJ">New Jersey</option>
+              <option value="NM">New Mexico</option>
+              <option value="NY">New York</option>
+              <option value="NC">North Carolina</option>
+              <option value="ND">North Dakota</option>
+              <option value="OH">Ohio</option>
+              <option value="OK">Oklahoma</option>
+              <option value="OR">Oregon</option>
+              <option value="PA">Pennsylvania</option>
+              <option value="RI">Rhode Island</option>
+              <option value="SC">South Carolina</option>
+              <option value="SD">South Dakota</option>
+              <option value="TN">Tennessee</option>
+              <option value="TX">Texas</option>
+              <option value="UT">Utah</option>
+              <option value="VT">Vermont</option>
+              <option value="VA">Virginia</option>
+              <option value="WA">Washington</option>
+              <option value="WV">West Virginia</option>
+              <option value="WI">Wisconsin</option>
+              <option value="WY">Wyoming</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Explore now!</button>
+        </form>
+      </div>
+
+      <div class="col-sm-4">
+        <h3>Explore Parks by Sights!</h3>
+        <form id="backend-cams-form">
+          <div class="form-group">
+            <label for="activity">🌼 Select Park:</label>
+            <select class="form-control" id="cams_form">
+              <option value="acad">Acadia National Park</option>
+              <option value="bibe">Big Bend National Park</option>
+              <option value="brca">Bryce Canyon National Park</option>
+              <option value="havo">Hawaiʻi Volcanoes National Park</option>
+              <option value="isro">Isle Royale National Park</option>
+              <option value="meve">Mesa Verde National Park</option>
+              <option value="shen">Shenandoah National Park</option>
+              <option value="olym">Olympic National Park</option>
+              <option value="whis">Whiskeytown National Recreation Area</option>
+              <option value="wrst">Wrangell - St Elias National Park & Preserve</option>
+              <option value="yell">Yellowstone National Park</option>
+              <option value="yose">Yosemite National Park</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-success">Explore now!</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <section id="results" class="hidden">
+    <ul id="results_list"></ul>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer text-center">
+    <p>Created with 💚 by Michelle</p> 
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

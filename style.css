@@ -1,0 +1,36 @@
+.navbar {
+  margin-bottom: 0px;
+  background-color: #d4e2be;
+}
+
+.form-group {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn { margin-bottom: 40px;}
+
+.footer {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 18px;
+  padding-top: 28px;
+  padding-bottom: 25px;
+}
+
+h6 { font-size: 15px; }
+
+h4 { font-size: 20px; }
+
+.links { color: rgb(49, 170, 70); }
+
+.description { padding: 16px 40px; }
+
+#profile-img { padding-top: 25px; }
+
+html { scroll-behavior: smooth;}
+
+#results {
+  font-size: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
